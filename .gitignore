@@ -6,8 +6,6 @@
 
 # ── Secrets and local configuration ──────────────────────────────────────────
 # Real settings never go in Git. The *.example files are the templates and ARE committed.
-.env
-.env.*
 !.env.example
 !.env.production.example
 *.pem
@@ -82,7 +80,6 @@ _to_delete/
 
 # ── Editors and operating systems ────────────────────────────────────────────
 .idea/
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 *.swp
@@ -98,6 +95,4 @@ desktop.ini
 #   git rm --cached INTERVIEW.md SECURITY.md
 INTERVIEW.md
 SECURITY.md
-
-# Local-only docs
-/README.md
+config.bat
