@@ -98,6 +98,3 @@ desktop.ini
 #   git rm --cached INTERVIEW.md SECURITY.md
 INTERVIEW.md
 SECURITY.md
-
-# Local-only docs
-/README.md
